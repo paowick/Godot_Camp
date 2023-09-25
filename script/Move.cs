@@ -1,12 +1,12 @@
 using Godot;
 using System;
 
-public partial class New_script : Node
+public partial class Move : Node
 {
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-		GD.Print("paowick");
+		GD.Print("move");
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
